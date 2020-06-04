@@ -9,7 +9,6 @@ public class CredenciaisDTO implements Serializable {
 	private String senha;
 	
 	public CredenciaisDTO() {
-		
 	}
 	
 	public String getEmail() {
@@ -23,5 +22,5 @@ public class CredenciaisDTO implements Serializable {
 	}
 	public void setSenha(String senha) {
 		this.senha = senha;
-	}	
+	}
 }
